@@ -16,8 +16,9 @@ document.getElementById('cashOut-btn').addEventListener('click', function (e) {
         // remove value
         let money = document.getElementById('cash-out-amount');
         money.value = '';
-        let pin = document.getElementById('out-pin-nmbr');
-        pin.value = '';
+        // sm but other system 
+        document.getElementById('out-pin-nmbr').value = '';
+        document.getElementById('cashout-number').value = '';
         // console.log(currentValue)
     } else {
         alert('Failed to add Money! Please try again.')
