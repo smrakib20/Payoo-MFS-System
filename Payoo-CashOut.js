@@ -5,7 +5,7 @@ document.getElementById('cashOut-btn').addEventListener('click', function (e) {
     let moneys = document.getElementById('cash-out-amount').value;
     let pins = document.getElementById('out-pin-nmbr').value;
     let balances = document.getElementById('current-balance').innerText;
-    if (nmbrs !== '' && pins === '01') {
+    if (nmbrs !== '' && pins === '1234') {
         // console.log(balances)
         //    set number type & adding current value
         let balancesNum = parseFloat(balances);

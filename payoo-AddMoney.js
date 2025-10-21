@@ -4,7 +4,7 @@ document.getElementById('add-money-btn').addEventListener('click', function (e) 
     let moneys = document.getElementById('add-amount').value;
     let pins = document.getElementById('pin-nmbr').value;
     let balances = document.getElementById('current-balance').innerText;
-    if (pins === '01') {
+    if (pins === '1234') {
         // console.log(balances)
         //    set number type & adding current value
         let balancesNum = parseFloat(balances);
