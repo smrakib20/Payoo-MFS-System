@@ -9,6 +9,11 @@ document.getElementById('add-money-btn').addEventListener('click', function (e) 
         //    set number type & adding current value
         let balancesNum = parseFloat(balances);
         let moneysNum = parseFloat(moneys);
+        let taka = "100";
+        if (moneysNum < taka) {
+            alert("You do not have Add Money under 100 tk")
+            return;
+        }
         let currentValue = moneysNum + balancesNum;
         document.getElementById('current-balance').innerText = currentValue;
 

@@ -14,6 +14,11 @@ document.getElementById('cashOut-btn').addEventListener('click', function (e) {
             alert("You do not have enough money to cash out")
             return;
         }
+        let taka = "100";
+        if (moneysNum < taka) {
+            alert("You do not have Cash Out under 100 tk")
+            return;
+        }
         let currentValue = balancesNum - moneysNum;
         document.getElementById('current-balance').innerText = currentValue;
 
