@@ -4,7 +4,7 @@ document.getElementById('login-btns').addEventListener('click', function (e) {
     const numbers = document.getElementById('phn-nmbr').value;
     const pins = document.getElementById('login-pin-nmbr').value;
     // console.log(numbers, pins)
-    if (numbers === "01963147782" && pins === "1234") {
+    if (numbers === "01" && pins === "1234") {
         // console.log("Your are logged in");
         document.getElementById('login-div').style.display = "none";
         document.getElementById('Lastest-Payment-Depo').style.display = "block";

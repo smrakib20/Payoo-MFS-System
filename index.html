@@ -129,49 +129,15 @@
                             </div>
                         </div>
                         <!-- Lastest Payment -->
-                        <div id="Lastest-Payment" class=" flex flex-col space-y-2 ">
+                        <div id="Lastest-Payment" class=" min-h-40 bg-base-300 shadow flex flex-col space-y-2 ">
                             <h1 class=" mx-auto font-bold text-sm">Lastest Payment</h1>
-                            <!-- l-v-1  -->
-                            <div class="indicator mx-auto">
+                            <!-- History -->
+                            <div id="last-history" class=" hidden indicator mx-auto">
                                 <div
-                                    class=" bg-base-300 shadow rounded-xl border border-gray-300 grid grid-cols-3  h-16 w-72 place-items-center">
+                                    class=" bg-base-300 shadow rounded-xl border border-gray-300 grid grid-cols-3  min-h-16 w-72 place-items-center">
                                     <iconify-icon icon="flat-color-icons:money-transfer" width="28"
                                         height="36"></iconify-icon>
-                                    <h2 class=" w-32 "> Electricity Bill <span class=" text-sm">Today 1:44 </span>
-                                    </h2>
-                                    <iconify-icon icon="mdi:dots-vertical" width="24" height="24"></iconify-icon>
-                                </div>
-                            </div>
-                            <!-- l-v-2  -->
-                            <div class="indicator">
-                                <div
-                                    class=" bg-base-300 shadow rounded-xl border border-gray-300 grid grid-cols-3  h-16 w-72 place-items-center">
-                                    <iconify-icon icon="flat-color-icons:money-transfer" width="28"
-                                        height="36"></iconify-icon>
-                                    <h2 class=" w-32 "> Bank Deposit <span class=" text-sm">Today 1:43 </span>
-                                    </h2>
-                                    <iconify-icon icon="mdi:dots-vertical" width="24" height="24"></iconify-icon>
-                                </div>
-                            </div>
-                            <!-- l-v-3  -->
-                            <div class="indicator">
-                                <div
-                                    class=" bg-base-300 shadow rounded-xl border border-gray-300 grid grid-cols-3  h-16 w-72 place-items-center">
-                                    <iconify-icon icon="flat-color-icons:money-transfer" width="28"
-                                        height="36"></iconify-icon>
-                                    <h2 class=" w-32 "> Wifi Bill <br> <span class=" text-sm">Today 1:43 </span>
-                                    </h2>
-                                    <iconify-icon icon="mdi:dots-vertical" width="24" height="24"></iconify-icon>
-                                </div>
-                            </div>
-                            <!-- l-v-4  -->
-                            <div class="indicator">
-                                <div
-                                    class=" bg-base-300 shadow rounded-xl border border-gray-300 grid grid-cols-3  h-16 w-72 place-items-center">
-                                    <iconify-icon icon="flat-color-icons:money-transfer" width="28"
-                                        height="36"></iconify-icon>
-                                    <h2 class=" w-32 "> Gas Bill <br> <span class=" text-sm">Today 1:42 </span>
-                                    </h2>
+                                    <div id="h2-div"></div>
                                     <iconify-icon icon="mdi:dots-vertical" width="24" height="24"></iconify-icon>
                                 </div>
                             </div>
