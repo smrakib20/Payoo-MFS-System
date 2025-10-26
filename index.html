@@ -67,8 +67,8 @@
                         <div>
                             <a href="#" id="logout" class="btn btn-outline m-4" onclick="document.getElementById('Add-Money-Section').style.display = 'none',
                             document.getElementById('CashOut-Money-Section').style.display = 'none',
-                                document.getElementById('Lastest-Payment').style.display='none',
-                                document.getElementById('login-div').style.display='flex'">
+                                document.getElementById('Lastest-Payment-Depo').style.display='none',
+                                document.getElementById('login-div').style.display='block'">
                                 Log Out
                                 <iconify-icon icon="mdi:logout" width="20" height="20"></iconify-icon>
                             </a>
@@ -135,7 +135,7 @@
                         <div id="Lastest-Payment" class=" min-h-40 bg-base-300 shadow flex flex-col space-y-2 ">
                             <h1 class=" mx-auto font-bold text-sm">Lastest Payment</h1>
                             <!-- History -->
-                            <div id="last-history" class=" hidden indicator mx-auto">
+                            <div id="last-history" class="hidden indicator mx-auto">
                                 <div
                                     class=" bg-base-300 shadow rounded-xl border border-gray-300 grid grid-cols-3  min-h-16 w-72 place-items-center">
                                     <iconify-icon icon="flat-color-icons:money-transfer" width="28"
