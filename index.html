@@ -58,14 +58,17 @@
                 </div>
                 <!-- Lastest Payment Depo  -->
                 <div id="Lastest-Payment-Depo" class="hidden p-2">
+                    <!-- uper case  -->
                     <div class="flex justify-between items-center ">
                         <div>
                             <div id="current-balance" class="stat-value ">89400</div>
                             <div class="stat-desc">Available Balance</div>
                         </div>
                         <div>
-                            <a href="/index.html" id="logout" class="btn btn-outline m-4"
-                                onclick="window.location.href='/index.html'">
+                            <a href="/index.html" id="logout" class="btn btn-outline m-4" onclick="document.getElementById('Add-Money-Section').style.display = 'none',
+                            document.getElementById('CashOut-Money-Section').style.display = 'none',
+                                document.getElementById('Lastest-Payment').style.display='none',
+                                document.getElementById('login-div').style.display='flex'">
                                 Log Out
                                 <iconify-icon icon="mdi:logout" width="20" height="20"></iconify-icon>
                             </a>
